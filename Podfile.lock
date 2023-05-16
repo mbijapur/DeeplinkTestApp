@@ -1,0 +1,16 @@
+PODS:
+  - Marketo-iOS-SDK (0.8.0)
+
+DEPENDENCIES:
+  - Marketo-iOS-SDK
+
+SPEC REPOS:
+  trunk:
+    - Marketo-iOS-SDK
+
+SPEC CHECKSUMS:
+  Marketo-iOS-SDK: b653050c363ae5c0b1ea1df5409fd2cfdfdcbebe
+
+PODFILE CHECKSUM: f3e979480ff565c19728a89ae7454cb78e5aeb9c
+
+COCOAPODS: 1.11.3
