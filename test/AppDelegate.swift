@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         // Override point for customization after application launch.
         
         let sharedInstance: Marketo = Marketo.sharedInstance()
-        sharedInstance.initialize(withMunchkinID: "849-BHY-433",
-                                  appSecret: "MHdKWVZLTHoxMnFUNnk0b3FCTWNDbHBI",
+        sharedInstance.initialize(withMunchkinID: "munchkin",
+                                  appSecret: "secretkey",
                                   launchOptions: launchOptions)
         
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
