@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D5926542A0EC446008E9E5B /* MarketoNew.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5926502A0EC39D008E9E5B /* MarketoNew.xcframework */; };
-		3D5926552A0EC446008E9E5B /* MarketoNew.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5926502A0EC39D008E9E5B /* MarketoNew.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		42FEB7230E7D7B63B8943D27 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A153B2E53EE44F2701DA2A /* libPods-test.a */; };
 		47C3BE6F28A2C0F80060A019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3BE6E28A2C0F80060A019 /* AppDelegate.swift */; };
 		47C3BE7328A2C0F80060A019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C3BE7228A2C0F80060A019 /* ViewController.swift */; };
@@ -24,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3D5926552A0EC446008E9E5B /* MarketoNew.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,7 +31,6 @@
 /* Begin PBXFileReference section */
 		18B6CD32EF89BC5B4F1B7833 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		22C106385A83D6F78C073E30 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
-		3D5926502A0EC39D008E9E5B /* MarketoNew.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MarketoNew.xcframework; path = ../../../Desktop/MarketoNew.xcframework; sourceTree = "<group>"; };
 		47C3BE6B28A2C0F80060A019 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C3BE6E28A2C0F80060A019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47C3BE7228A2C0F80060A019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5926542A0EC446008E9E5B /* MarketoNew.xcframework in Frameworks */,
 				42FEB7230E7D7B63B8943D27 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,7 +100,6 @@
 		E10D7B3727D3E86261139423 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D5926502A0EC39D008E9E5B /* MarketoNew.xcframework */,
 				93A153B2E53EE44F2701DA2A /* libPods-test.a */,
 			);
 			name = Frameworks;
@@ -399,7 +393,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vessel.abtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mahesh/Documents/MME/test/test/test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -434,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vessel.abtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mahesh/Documents/MME/test/test/test-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
